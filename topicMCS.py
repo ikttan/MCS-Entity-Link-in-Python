@@ -15,7 +15,7 @@ base_url = 'https://westus.api.cognitive.microsoft.com/'
 # Your account key goes here.
 account_key = '022898dd7ab940d3a474ecc4e60312d6'
 
-headers = {'Content-Type':'application/json', 'Ocp-Apim-Subscription-Key':'022898dd7ab940d3a474ecc4e60312d6'}
+headers = {'Content-Type':'application/json', 'Ocp-Apim-Subscription-Key':account_key}
 
 # Path to file with JSON inputs.
 file_path = 'C:\Users\Ian\Desktop\Topic Modeling with MCS\soya_2016Feb.txt'
@@ -44,3 +44,4 @@ while True:
 
 print('Topic detection complete. Result:')
 print(obj)
+

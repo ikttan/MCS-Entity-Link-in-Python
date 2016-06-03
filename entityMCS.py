@@ -10,7 +10,7 @@ text = 'Jln Cheras, expect delays from Taman Connaught - the Billion roundabout'
 headers = {
     # Request headers
     'Content-Type': 'text/plain',
-    'Ocp-Apim-Subscription-Key': '9a94194d653b4eb09d71677872015565',
+    'Ocp-Apim-Subscription-Key': 'add_your_subscription_key_here',
 }
 
 try:
